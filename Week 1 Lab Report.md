@@ -46,7 +46,14 @@ Once you log in, I got a welcome message with my username and the computer that 
   
 ## Running Some Commands  
   
-You have now gotten to the point where you should be all set to start running some commands on you rterminal. For this, open up VSCode and open your terminal. There are many commands you can run, here is an example of a couple: 
+You have now gotten to the point where you should be all set to start running some commands on you rterminal. For this, open up VSCode and open your terminal. There are many commands you can run, here is an example of a couple:   
+  
+![Image](commands.jpeg)  
+  
+Here as you can see, I ran the cd~ and the ls -lat commands. The cd~ command just changed me back into the parent directory. The ls -lat command listed files in order of most recently modified. There are many other commands you can run and actions that can be done in the terminal. 
+
+## Conclusion  
+You have now reached the end of the tutorial and are ready to star working on your projects, good luck!
 
 
 
