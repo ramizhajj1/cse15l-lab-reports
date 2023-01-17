@@ -37,8 +37,18 @@ RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 Password:  
 
-to which you will respond 'y' and enter your password that you created earlier. You are now connected and your terminal should show something like this:  
+to which you will respond 'y' and enter your password that you created earlier. You are now connected and your terminal should show something like this:   
   
+![Image](vscode2.jpeg)  
+  
+Once you log in, I got a welcome message with my username and the computer that I have remotely connected to. I got the percentage of usage of CPU, and then I am told the cluster status along with a table that lists the hostname, time, #users, load, and averages. This is all information about the computer that I am connecting to. 
+
+  
+## Running Some Commands  
+  
+You have now gotten to the point where you should be all set to start running some commands on you rterminal. For this, open up VSCode and open your terminal. There are many commands you can run, here is an example of a couple: 
+
+
 
 
 
