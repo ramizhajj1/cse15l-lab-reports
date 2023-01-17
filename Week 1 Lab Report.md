@@ -23,3 +23,22 @@ The good thing about VSCode is that if installed on your own device, you can con
 ![Image](vscode.jpeg)  
   
 Once you are into VSCode, you can create files, folders, and start running code. You can even open up a terminal and run commands through VSCode.
+  
+## Remotely Connecting
+  
+The next step is to remotely connect to the server. This is very helpful to be able to work collaboratively and to be able to conect to a server from anywhere.   
+
+The first step you want to take is to use ssh by typing this command into your terminal: $ ssh cs15lwi23zz@ieng6.ucsd.edu.   
+
+It will then return the following message:   
+ssh cs15lwi23zz@ieng6.ucsd.edu
+The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+Password:  
+
+to which you will respond 'y' and enter your password that you created earlier. You are now connected and your terminal should show something like this:  
+  
+
+
+
