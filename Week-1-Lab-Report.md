@@ -12,9 +12,10 @@ To start things off, I will be talking about remote access and logging in to you
 Every CSE 15L student has a course-specific account which they can log in to using their UCSD username and student PID.   
 
 To access your account, click this link here: [[Link](https://sdacs.ucsd.edu/~icc/index.php)] 
-The screen will look like this and the student will input their UCSD username and student PID.  
 
-![Image](account.jpeg)
+The screen will look like this and the student will input their UCSD username and student PID.    
+
+![Image](account2.jpeg)
   
  Upon logging in with these credentials, the screen should look like this. It may be necessary for the student to change their password.
 
