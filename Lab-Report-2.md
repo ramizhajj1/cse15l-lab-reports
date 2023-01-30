@@ -27,6 +27,10 @@ The corresponding input for the symptom in testReverseInPlace was [5, 4, 5] inst
 
 As you can see in the following code, the JUnit test is failed because the expected output of the array is not what the function returns, hence the bug.  
 
-Because the array is empty at reversed, if you put in an expected output of [0,0,0], you will see that is passes the JUnit test in the image below.   
+![Image](code1.jpeg)
+
+Because the array is empty at reversed, if you put in an expected output of [0,0,0], you will see that is passes the JUnit test in the image below.    
+
+![Image](code2.jpeg)
 
 
