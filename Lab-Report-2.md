@@ -1,6 +1,10 @@
 # Lab Report 2  
 
-In this lab report, we will cover topics such as symptoms, failure inducing imputs, and web server creation.   
+In this lab report, we will cover topics such as symptoms, failure inducing imputs, and web server creation.     
+
+## StringServer  
+
+
 
 ## Symptoms and Failure Inducing Input  
 
@@ -61,6 +65,8 @@ static voidreverseInPlace() {
      }
 }
 ```  
-This code will now correctly return an array in reversed order. The reason that this correctly fixes the big is that instead of originally comparing the reversed array to an array of zeroes, this new method runs a for loop that correctly fills the array in order of incrementing i, and then reverses the filled array returning the correctly reversed array. 
+This code will now correctly return an array in reversed order. The reason that this correctly fixes the big is that instead of originally comparing the reversed array to an array of zeroes, this new method runs a for loop that correctly fills the array in order of incrementing i, and then reverses the filled array returning the correctly reversed array.   
+
+# What Did I Learn?
 
 
