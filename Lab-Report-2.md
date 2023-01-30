@@ -60,8 +60,7 @@ static voidreverseInPlace() {
 	arr[arr.length - i - 1] = tmp;
      }
 }
-   
-
-```
+```  
+This code will now correctly return an array in reversed order. The reason that this correctly fixes the big is that instead of originally comparing the reversed array to an array of zeroes, this new method runs a for loop that correctly fills the array in order of incrementing i, and then reverses the filled array returning the correctly reversed array. 
 
 
