@@ -19,7 +19,9 @@ The screen will look like this and the student will input their UCSD username an
   
  Upon logging in with these credentials, the screen should look like this. It may be necessary for the student to change their password.
 
-![Image](account.jpeg)
+![Image](account.jpeg). 
+
+If you look towards the top of the screen, there is a link that will guide you to change your password. 
 
 ## Installing and Using VSCode
 
