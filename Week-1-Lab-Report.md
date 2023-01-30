@@ -21,7 +21,12 @@ The screen will look like this and the student will input their UCSD username an
 
 ![Image](account.jpeg). 
 
-If you look towards the top of the screen, there is a link that will guide you to change your password. 
+If you look towards the top of the screen, there is a link that will guide you to change your password.   
+
+Once you click the link, you will be prompted to enter your username, and your current password. It will also ask you to type your new password, which must consist of numbers, letters (uppercase and lowercase), and symbols. The more complicated your password, the more likely it is to keep your account secure.   
+
+At this point, instead of clicking the blue 'Check password' button, you will simply click enter with your mouse in the input box. The following photo that I have borrowed from the course website will show which button and which input box the user shoudl click.    
+
 
 ## Installing and Using VSCode
 
