@@ -32,5 +32,36 @@ As you can see in the following code, the JUnit test is failed because the expec
 Because the array is empty at reversed, if you put in an expected output of [0,0,0], you will see that is passes the JUnit test in the image below.    
 
 ![Image](code2.jpeg)
+  
+In order to fix this bug, you must change the code as such. From this:  
+
+```
+# code block
+public class ArrayTests {
+	@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3, 4, 5 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 5, 4, 3 }, input1);
+	}
+```  
+
+To this:  
+
+
+```
+# code block
+public class ArrayExamples {
+	// this will change the input array to be in reversed order 
+static voidreverseInPlace() {
+     for (int i = 0; i < arr.length / 2; i++){
+    	int tmp = arr[i];
+	arr[i] = arr[arr.length - i - 1];
+	arr[arr.length - i - 1] = tmp;
+     }
+}
+   
+
+```
 
 
