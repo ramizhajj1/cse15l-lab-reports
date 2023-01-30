@@ -25,7 +25,11 @@ If you look towards the top of the screen, there is a link that will guide you t
 
 Once you click the link, you will be prompted to enter your username, and your current password. It will also ask you to type your new password, which must consist of numbers, letters (uppercase and lowercase), and symbols. The more complicated your password, the more likely it is to keep your account secure.   
 
-At this point, instead of clicking the blue 'Check password' button, you will simply click enter with your mouse in the input box. The following photo that I have borrowed from the course website will show which button and which input box the user shoudl click.    
+At this point, instead of clicking the blue 'Check password' button, you will simply click enter with your mouse in the input box. The following photo that I have borrowed from the course website will show which button and which input box the user shoudl click.      
+
+![Image](instructions.jpeg)  
+  
+ After this, if all is successful, you should be able to reset your password. It will take 15-30 minutes to become effective, but you will be able to use it after that!
 
 
 ## Installing and Using VSCode
@@ -61,11 +65,27 @@ Once you log in, I got a welcome message with my username and the computer that 
   
 ## Running Some Commands  
   
-You have now gotten to the point where you should be all set to start running some commands on you rterminal. For this, open up VSCode and open your terminal. There are many commands you can run, here is an example of a couple:   
+You have now gotten to the point where you should be all set to start running some commands on your terminal. For this, open up VSCode and open your terminal. There are many commands you can run, here is an example of a couple:   
   
 ![Image](commands.jpeg)  
   
-Here as you can see, I ran the cd~ and the ls -lat commands. The cd~ command just changed me back into the parent directory. The ls -lat command listed files in order of most recently modified. There are many other commands you can run and actions that can be done in the terminal. 
+Here as you can see, I ran the cd~ and the ls -lat commands. The cd~ command just changed me back into the parent directory. The ls -lat command listed files in order of most recently modified. There are many other commands you can run and actions that can be done in the terminal.   
+  
+These however, are not the only commands that can be run. Here are a few more commands that you can try, along with some output errors that they may produce.   
+  
+The cd~ and ls -lat commands are already displayed above.  
+
+The ls command lists the other files/folders in the parent directory of the home directory. Some errors it may produce are not listing the correct files, due to not being in the correct parent directory and not being able to locate the files.   
+
+The /home/linux/ieng6/cs15lwi23/public/hello.txt command can also be ran to concatenate, you will get an error if you mis-spell the file hello.txt.    
+
+The cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/ file will also give a file not found error if you mis-spell the file hello.txt.  
+
+And finally, the ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username will give you an error because the file will not be found due to it being connected to a different place. 
+
+
+
+
 
 ## Conclusion  
 You have now reached the end of the tutorial and are ready to star working on your projects, good luck!
