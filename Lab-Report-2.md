@@ -14,7 +14,7 @@ First, we will create a server called StringServer. We will then add a string to
 ```  
 It will display this:     
 
-![Image](server1.jpeg)
+![Image](server2.jpeg)
   
 The method handleRequest is used here in order to print out the output based on the path. This method uses a URI as a value to print the string "Hello". It also uses String.
   
@@ -26,7 +26,7 @@ Then, if we add this to the path:
   
 It should display this:      
 
-![Image](server2.jpeg)
+![Image](server1.jpeg)
   
 This also used the method handleRequeest, and it uses URI to print "Hello" and "How are you?" It also uses String.
 
@@ -95,6 +95,8 @@ static voidreverseInPlace() {
 ```  
 This code will now correctly return an array in reversed order. The reason that this correctly fixes the big is that instead of originally comparing the reversed array to an array of zeroes, this new method runs a for loop that correctly fills the array in order of incrementing i, and then reverses the filled array returning the correctly reversed array.   
 
-# What Did I Learn?
+# What Did I Learn?  
+
+Of the many things that we learned in labs two and three that I did not know before, I think that what stuck with me the most was how you can add commands to a server's URI in order to have it display things on the server. I found this very interesting because I believe it can save a lot of time, allowing for one to be able to simply add commands of what they want to see to the URI, rather than having to go in and code it. 
 
 
