@@ -12,7 +12,9 @@ First, we will create a server called StringServer. We will then add a string to
 # code block
 /add-message?s=Hello
 ```  
-It will display this:    
+It will display this:     
+
+![Image](server1.jpeg)
   
 The method handleRequest is used here in order to print out the output based on the path. This method uses a URI as a value to print the string "Hello". It also uses String.
   
@@ -22,7 +24,9 @@ Then, if we add this to the path:
 /add-message?s=How are you
 ```  
   
-It should display this:    
+It should display this:      
+
+![Image](server2.jpeg)
   
 This also used the method handleRequeest, and it uses URI to print "Hello" and "How are you?" It also uses String.
 
