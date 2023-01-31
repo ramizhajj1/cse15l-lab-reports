@@ -2,7 +2,31 @@
 
 In this lab report, we will cover topics such as symptoms, failure inducing imputs, and web server creation.     
 
-## StringServer  
+## StringServer    
+
+In this portion, we will be creating a webserver, and having it display text by adding it to the path.  
+
+First, we will create a server called StringServer. We will then add a string to its path. In this case, we added "Hello", so the pagfe should simply print "Hello", as such:
+
+```
+# code block
+/add-message?s=Hello
+```  
+It will display this:    
+  
+The method handleRequest is used here in order to print out the output based on the path. This method uses a URI as a value to print the string "Hello". It also uses String.
+  
+Then, if we add this to the path:  
+```
+# code block
+/add-message?s=How are you
+```  
+  
+It should display this:    
+  
+This also used the method handleRequeest, and it uses URI to print "Hello" and "How are you?" It also uses String.
+
+
 
 
 
