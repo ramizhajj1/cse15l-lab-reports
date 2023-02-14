@@ -115,7 +115,7 @@ Because the array is empty at reversed, if you put in an expected output of [0,0
 
 ![Image](code2.jpeg)
   
-In order to fix this bug, you must change the code as such. From this:  
+In order to fix this bug, you must change the code. The following code is the incorrect block, and is the code for reverseInPlace before the bug fix.   
 
 ```
 public class ArrayTests {
@@ -127,7 +127,7 @@ public class ArrayTests {
 	}
 ```  
 
-To this:  
+To fix the bug, you will change the code to this:  
 
 
 ```
@@ -141,7 +141,17 @@ static voidreverseInPlace() {
      }
 }
 ```  
-This code will now correctly return an array in reversed order. The reason that this correctly fixes the big is that instead of originally comparing the reversed array to an array of zeroes, this new method runs a for loop that correctly fills the array in order of incrementing i, and then reverses the filled array returning the correctly reversed array.   
+This code will now correctly return an array in reversed order. The reason that this correctly fixes the bug is that instead of originally comparing the reversed array to an array of zeroes, this new method runs a for loop that correctly fills the array in order of incrementing i, and then reverses the filled array returning the correctly reversed array. The extra lines that were added mathematically changed the output. By adding the following for loop:   
+```
+
+     for (int i = 0; i < arr.length / 2; i++){
+    	int tmp = arr[i];
+	arr[i] = arr[arr.length - i - 1];
+	arr[arr.length - i - 1] = tmp;
+     }
+```  
+  
+
 
 ## What Did I Learn?  
 
