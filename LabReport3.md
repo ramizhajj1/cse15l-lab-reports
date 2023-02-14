@@ -10,25 +10,115 @@ The grep command is a command used to search and match text files contained in t
    
 ## -c
   
-The grep -c command prints only a count of the lines that match a pattern in a file. For example, you will give them comand grep -c "Lucyans" written_2.txt. This will return a number like "2". Here is a visual example of me running this command:   
+The grep -c command prints only a count of the lines that match a pattern in a file. For example, you will give them comand grep -c "Lucayans" written_2.txt. This will return a number like "2". It will look like this.   
+
+```
+
+[cs15lwi23aro@ieng6-203]:skill-demo1-data:297$ grep -c "Lucayans" written_2.txt
+     
+[cs15lwi23aro@ieng6-203]:skill-demo1-data:297$ 2
+```      
+
+Here is another example of me doing it using the word "Athens" instead:
+
+
+```
+
+[cs15lwi23aro@ieng6-203]:skill-demo1-data:297$ grep -c "Athens" written_2.txt
+     
+[cs15lwi23aro@ieng6-203]:skill-demo1-data:297$ 174
+```      
+
     
 ## -r  
 
-The grep -r command lists all of the files within a directory where a certain keyword appears. For example, in the following screenshot, I typed in "grep -r "Lucayans" and it gave me all of the files within the written_2 directory where the word "Lucayans" appears.    
+The grep -r command lists all of the files within a directory where a certain keyword appears. For example, in the following screenshot, I typed in "grep -r "Lucayans" and it gave me all of the files within the written_2 directory where the word "Lucayans" appears. 
+  
+My command:  
+
+```
+
+[cs15lwi23aro@ieng6-203]:skill-demo1-data:297$ grep -r "Lucayans" 
+     
+```      
 
 ![Image](-r1.jpeg)    
 
-Here is the same command used again but now with the keyword "Athens". As you can see, the result is not short!    
+Here is the same command used again but now with the keyword "Athens". As you can see, the result is not short!      
+  
+My command:  
+
+```
+
+[cs15lwi23aro@ieng6-203]:skill-demo1-data:297$ grep -r "Athens" 
+     
+```     
 
 ![Image](athenslong.jpeg) 
 
 
   
 ## -l
-Another grep command that is commonly used is -l. By using the -l, it means that you are asking for it to show the file name, not the result itself. As you can see, this now shows you where the word "Lucayans" appears, but not the entire file itself.   
+Another grep command that is commonly used is -l. By using the -l, it means that you are asking for it to show the file name, not the result itself. As you can see, this now shows you where the word "Lucayans" appears, but not the entire file itself.    
+
+```
+
+[cs15lwi23aro@ieng6-203]:skill-demo1-data:297$ grep -rl "Lucayans" 
+     
+```     
 
 ![Image](-r2.jpeg)  
 
-Here is another example of using the grep -l command with another key word "Athens".  
+Here is another example of using the grep -l command with another key word "Athens".    
 
-![Image](athens.jpeg) 
+```
+
+[cs15lwi23aro@ieng6-203]:skill-demo1-data:297$ grep -rl "Lucayans" 
+     
+```   
+
+![Image](athens.jpeg)   
+
+## -o  
+
+Another useful grep command is grep -o. The -o command means that you want to only print the matched parts of a matching line,
+ with each such part on a separate output line. Here is an example of this command:  
+ 
+ Input:  
+ 
+ 
+ ```
+
+[cs15lwi23aro@ieng6-203]:skill-demo1-data:297$ grep -o "Lucayans" written_2.txt
+     
+```     
+Output:   
+ ```
+Lucayans
+Lucayans
+Lucayans
+Lucayans
+Lucayans
+
+```       
+
+Here is another example of this using the keyword "Athens" instead.   
+
+Input:  
+ 
+ 
+ ```
+
+[cs15lwi23aro@ieng6-203]:skill-demo1-data:297$ grep -o "Athens" written_2.txt
+     
+```     
+Output:   
+ ```
+Athens
+Athens
+Athens
+Athens
+Athens
+
+```       
+
