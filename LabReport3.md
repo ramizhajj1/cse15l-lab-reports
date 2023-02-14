@@ -121,4 +121,9 @@ Athens
 Athens
 
 ```       
+  
+It is clear that there are many different options for using grep commands, and these are just some of the few. The best part about this is that for every task that you need to do with your command line, there is an optimal way to find it, and it just has to be found!
 
+  
+For citation purposes, I found my grep command line options at this URL:   
+https://www.geeksforgeeks.org/grep-command-in-unixlinux/
