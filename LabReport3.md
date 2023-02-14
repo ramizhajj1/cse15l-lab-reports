@@ -14,6 +14,10 @@ The grep -c command prints only a count of the lines that match a pattern in a f
     
 ## -r  
 
-The grep -r command lists all of the files within a directory where a certain keyword appears. For example, in the following screenshot, I typed in "grep -r "Lucayans" and it gave me all of the files within the written_2 directory where the word "Lucayans" appears.   
+The grep -r command lists all of the files within a directory where a certain keyword appears. For example, in the following screenshot, I typed in "grep -r "Lucayans" and it gave me all of the files within the written_2 directory where the word "Lucayans" appears.    
 
-Another way to use this command is by writing grep -rl. by adding the l, it means that you are asking for it to show the file name, not the result itself. As you can see, this now shows you where the word "Lucayans" appears, but not the entire file itself. 
+![Image](-r1.jpeg)
+
+Another way to use this command is by writing grep -rl. by adding the l, it means that you are asking for it to show the file name, not the result itself. As you can see, this now shows you where the word "Lucayans" appears, but not the entire file itself.   
+
+![Image](-r2.jpeg)
