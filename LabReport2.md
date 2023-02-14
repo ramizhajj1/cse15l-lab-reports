@@ -149,7 +149,8 @@ This code will now correctly return an array in reversed order. The reason that 
 	arr[i] = arr[arr.length - i - 1];
 	arr[arr.length - i - 1] = tmp;
      }
-```  
+```    
+the method scanned the array up to half of its length, then changed the newly implemented integer tmp so that the list would be in reverse order.  
   
 
 
