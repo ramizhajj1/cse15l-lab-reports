@@ -18,7 +18,9 @@ The grep -r command lists all of the files within a directory where a certain ke
 
 ![Image](-r1.jpeg)    
 
-Here is the same command used again but now with the keyword "Athens". As you can see, the result is not short!  
+Here is the same command used again but now with the keyword "Athens". As you can see, the result is not short!    
+
+![Image](athenslong.jpeg) 
 
 
   
@@ -27,4 +29,6 @@ Another grep command that is commonly used is -l. By using the -l, it means that
 
 ![Image](-r2.jpeg)  
 
-Here is another example of using the grep -l command with another key word. 
+Here is another example of using the grep -l command with another key word "Athens".  
+
+![Image](athens.jpeg) 
