@@ -127,4 +127,4 @@ It is clear that there are many different options for using grep commands, and t
   
 For citation purposes, I found my grep command line options at this URL:   
   
-([[http://a.com](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)])
+[https://www.geeksforgeeks.org/grep-command-in-unixlinux/)](http://a.com)	
