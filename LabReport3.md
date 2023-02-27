@@ -73,7 +73,7 @@ Here is another example of using the grep -l command with another key word "Athe
 
 ```
 
-[cs15lwi23aro@ieng6-203]:skill-demo1-data:297$ grep -rl "Lucayans" 
+[cs15lwi23aro@ieng6-203]:skill-demo1-data:297$ grep -rl "Athens" 
      
 ```   
 
