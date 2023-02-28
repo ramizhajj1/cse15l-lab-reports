@@ -40,7 +40,10 @@ This showed that the unit tests failed, meaning that I needed to make changes to
   
 ## Edit the code file to fix the failing test   
   
-This is how I edited the code to get it to run and pass the failing test: 
+This is how I edited the code to get it to run and pass the failing test:   
+  
+ ![Image](easy.png)   
+
  
 
 ## Run the tests, demonstrating that they now succeed  
@@ -57,6 +60,10 @@ The tests now passed.
 
 Commit and push the resulting change to your Github account  
   
-To commit the changes, I used the GitHub Desktop App. 
+To commit the changes, I used the GitHub Desktop App.   
+  
+  ![Image](easy2.png)   
+  
+By using the shortcuts that I showed, I was able to complete all of the tests in around 10 minutes, but I did not win the competition. 
   
 
