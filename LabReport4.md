@@ -15,7 +15,7 @@ ssh cs15lwi23aro@ieng6.ucsd.edu
   
 I then entered my password and it logged me in. The screen looked like this:  
 
-![Image](-r1.jpeg)   
+![Image](Step1)   
 
 
 
