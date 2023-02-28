@@ -38,9 +38,12 @@ The exact keys I used were <up><up><enter>.
   
 This showed that the unit tests failed, meaning that I needed to make changes to the code to have it work. 
   
-Edit the code file to fix the failing test  
+## Edit the code file to fix the failing test   
+  
+This is how I edited the code to get it to run and pass the failing test: 
+ 
 
-Run the tests, demonstrating that they now succeed  
+## Run the tests, demonstrating that they now succeed  
   
 Now, to run the tests again and ensure that they succeed, I used <up><up><up><up> enter. This is the code that was put in:
 ```
