@@ -46,12 +46,10 @@ To edit the code and get it to run without failing the test, I used the followin
 nano ListExamples.java
 ```       
   
-  This is what it looked like:  
+  This is what it looked like:     
   
-  
- 
+  ![Image](nano.pdf)
 
- 
 
 ## Run the tests, demonstrating that they now succeed  
   
