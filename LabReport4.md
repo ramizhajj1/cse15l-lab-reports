@@ -34,7 +34,7 @@ javac -cp .:lib/hamcrest-2.2.jar:lib/junit-4.13.2.jar *.java
 java  -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore 
 ```    
   
-The exact keys I used were <up><up><enter>.  
+The exact keys I used were "up" "up" "enter".  
   
 This showed that the unit tests failed, meaning that I needed to make changes to the code to have it work. 
   
@@ -68,7 +68,7 @@ git commit -m "last commit"
 git push origin status 
 ```     
 This time, instead of using the desktop app, I committed and pushed the changes from the command line.   
-The keys I used were "up" "enter", three times, one for each line. 
+The keys I used were "up" "enter" three times, one for each line. 
   
 By using the shortcuts that I showed, I was able to complete all of the tests in around 10 minutes, but I did not win the competition. 
   
