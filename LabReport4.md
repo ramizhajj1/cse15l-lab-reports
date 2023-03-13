@@ -40,9 +40,16 @@ This showed that the unit tests failed, meaning that I needed to make changes to
   
 ## Edit the code file to fix the failing test   
   
-This is how I edited the code to get it to run and pass the failing test:   
+To edit the code and get it to run without failing the test, I used the following command:  
   
- ![Image](easy.png)   
+  ```
+nano ListExamples.java
+```       
+  
+  This is what it looked like:  
+  
+  
+ 
 
  
 
