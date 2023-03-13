@@ -60,9 +60,15 @@ The tests now passed.
 
 Commit and push the resulting change to your Github account  
   
-To commit the changes, I used the GitHub Desktop App.   
+To commit and push the changes I used the following commenads.   
   
-  ![Image](easy2.png)   
+```
+git status       
+git commit -m "last commit"
+git push origin status 
+```     
+This time, instead of using the desktop app, I committed and pushed the changes from the command line.   
+The keys I used were "up" "enter", three times, one for each line. 
   
 By using the shortcuts that I showed, I was able to complete all of the tests in around 10 minutes, but I did not win the competition. 
   
