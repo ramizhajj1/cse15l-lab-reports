@@ -48,7 +48,7 @@ nano ListExamples.java
   
   This is what it looked like:     
   
-  ![Image](nano.pdf)
+![Image](nano.jpeg)  
 
 
 ## Run the tests, demonstrating that they now succeed  
