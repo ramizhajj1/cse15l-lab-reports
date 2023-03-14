@@ -50,8 +50,7 @@ nano ListExamples.java
   
 ![Image](nano.jpeg)    
   
-  Now that we know a test is failing my inputs are nano L<tab> .java <Use Mouse> <enter> <right><right><right><right><right><right><right><right><right><right><right><right> <backspace> 2 <Ctrl + X> y <enter> This may seem like a lot of commands but let's do this step by step. I use the nano command knowing that I need to edit a file. I type L + <tab> so that bash can autocomplete the rest of the file which is ListExamples but there are other files with ListExamples... so I specify the extension .java and click enter to enter the editor. Now, I scroll using the mouse to line that contains index1 +=1  two lines above the return statement. Nano allows the user to scroll actively to a specific line. Then, I use the arrow keys 12 times to navigate to the 12th column of that line and use backspace twice. This deletes the erroneous 1 in index1 and I then replace it with index2. I then use Ctrl + X to exit the editor, and then y to save the changes and enter to confirm the file name.
-
+ The keys I used were nano L"tab" .java, then "enter" "right""right""right""right""right""right""right""right""right""right""right""right" "ctrl x" "backspace" then "enter". The reason for all these commands is so that we can use nano to edit a file, and then L + "tab" so that badh autocompletes the rest of the file. Then, I enter the editor. I use nano to scroll to the line where the error is, then I use backspace to delete the part that was wrong. I use ctrl x to exit the editor, and I use y to save the changes and confirm. 
 
 ## Run the tests, demonstrating that they now succeed  
   
