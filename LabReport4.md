@@ -69,7 +69,8 @@ Commit and push the resulting change to your Github account
 To commit and push the changes I used the following commenads.   
   
 ```
-git status       
+git status 
+git add .
 git commit -m "last commit"
 git push origin status 
 ```     
