@@ -50,7 +50,7 @@ nano ListExamples.java
   
 ![Image](nano.jpeg)    
   
- The keys I used were nano L"tab" .java, then "enter" "right""right""right""right""right""right""right""right""right""right""right""right" "ctrl x" "backspace" then "enter". The reason for all these commands is so that we can use nano to edit a file, and then L + "tab" so that badh autocompletes the rest of the file. Then, I enter the editor. I use nano to scroll to the line where the error is, then I use backspace to delete the part that was wrong. I use ctrl x to exit the editor, and I use y to save the changes and confirm. 
+ The keys I used were nano L"tab" .java, then "enter" "right""right""right""right""right""right""right""right""right""right""right""right" "ctrl x" "backspace" then "enter". The reason for all these commands is so that we can use nano to edit a file, and then L + "tab" so that bash autocompletes the rest of the file. Then, I enter the editor. I use nano to scroll to the line where the error is, then I use backspace to delete the part that was wrong. I use ctrl x to exit the editor, and I use y to save the changes and confirm. 
 
 ## Run the tests, demonstrating that they now succeed  
   
@@ -64,9 +64,9 @@ These commands were 4 up in the command line, so I just ran them the same way.
   
 The tests now passed. 
 
-Commit and push the resulting change to your Github account  
+## Commit and push the resulting change to your Github account  
   
-To commit and push the changes I used the following commenads.   
+To commit and push the changes I used the following commands.   
   
 ```
 git status 
