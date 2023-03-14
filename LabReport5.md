@@ -4,7 +4,9 @@ In this lab, I will be revisiting Lab Report 3, where I researched different use
   
 The reason that I chose to do this is because I felt that this was the most interesting lab for me, because I was able to learn new ways to use the most useful command in my opinion, which is grep. In this lab report, I will research and learn even more uses of the command.     
 
-In this lab, I will research more commands that can be used with 'grep', show two examples of an input and an output for each command, and explain why it is that this command can be useful. 
+In this lab, I will research more commands that can be used with 'grep', show two examples of an input and an output for each command, and explain why it is that this command can be useful.   
+
+By doing this, I learned a lot more about the grep command, and I learned how to use more commands in useful ways.
 
 ## The 'grep' Command   
 
