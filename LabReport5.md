@@ -2,7 +2,9 @@
 
 In this lab, I will be revisiting Lab Report 3, where I researched different uses of the grep command. This time however, I will be researching even more commands that can be used with 'grep'. I will still include the commands I researched last time, but the new ones will be on top. 
   
-The reason that I chose to do this is because I felt that this was the most interesting lab for me, because I was able to learn new ways to use the most useful command in my opinion, which is grep. In this lab report, I will research and learn even more uses of the command.   
+The reason that I chose to do this is because I felt that this was the most interesting lab for me, because I was able to learn new ways to use the most useful command in my opinion, which is grep. In this lab report, I will research and learn even more uses of the command.     
+
+In this lab, I will research more commands that can be used with 'grep', show two examples of an input and an output for each command, and explain why it is that this command can be useful. 
 
 ## The 'grep' Command   
 
@@ -11,9 +13,192 @@ The grep command is a command used to search and match text files contained in t
  There are many different commands that can be used with grep, and here are a few of them.  
  
  ## New Commands  
+   
+## -w  
+
+Input: 
+
+```
+grep -w vista berlitz1_vista.txt
+```       
+  
+  
+Output:  
+
+```
+$ grep -w vista berlitz1 vista.txt
+written 2/travel guides/berlitz1/WhereToFrance.txt:
+written 2/travel guides/berlitz1/whereToFrance.txt:
+written 2/travel guides/berlitz1/WhereToFrance.txt:
+written 2/travel guides/berlitz1/WhereToGreek.txt:
+written 2/travel guides/berlitz1/WhereToJerusalem.txt:
+vista was originally planned for Napoleon to see from his bedroom in
+The little port town of Cancale - with a wide vista across
+Saint-Philippe bastion and the Tour Bidouane opening up a vista along
+ancient port, now silted up. From here, the vista of the whole town can
+crowned by the conical roof of the Dormition Abbey. This sweeping vist
+written_2/travel guides/berlitz1/WhereToLakeDistrict.txt:
+
+```      
+
+By using the grep -w command, we are able to find a specific word in a file. In this exampl, we found all of the paths of files that include the word "vista" and where the word is used. This command is useful for when we need to search a lot of files for a keyword, we can find the files without filling the command line. 
+  
+Another example of using this command would be the following:      
+
+Input:
+
+```
+find written_2/ | grep -w Bahamas
+```   
+
+Output:  
+
+```
+$ find written 2/ | grep -w Bahamas
+written 2/travel guides/berlitz2/Bahamas-History.txt
+written 2/travel guides/berlitz2/Bahamas-Intro.txt
+written 2/travel guides/berlitz2/Bahamas-WhatToDo.txt
+written 2/travel guides/berlitz2/Bahamas-WhereToGo.txt
+```    
+
+In this example, the command can be useful if we are trying to sort files that contain a certain keyword in order.    
+
+## -v  
+
+Input:  
+
+```
+find written_2/ | grep -v History
+```     
+
+Output:  
+
+```
+$ find written 2/ | grep -v History
+written 2/
+written 2/non-fiction
+written 2/non-fiction/OUP
+written 2/non-fiction/OUP/Abernathy
+written_2/non-fiction/OUP/Abernathy/ch1.txt
+written_2/non-fiction/OUP/Abernathy/ch14.txt
+written 2/non-fiction/OUP/Abernathy/ch15.txt
+written_2/non-fiction/OUP/Abernathy/ch2.txt
+written 2/non-fiction/OUP/Abernathy/ch3.txt
+written 2/non-fiction/OUP/Abernathy/ch6.txt
+written 2/non-fiction/OUP/Abernathy/ch7.txt
+written_2/non-fiction/OUP/Abernathy/ch8.txt
+written_2/non-fiction/OUP/Abernathy/cho.txt
+written 2/non-fiction/OUP/Berk
+written 2/non-fiction/OUP/Berk/ch1.txt
+written 2/non-fiction/OUP/Berk/ch2.txt
+written 2/non-fiction/OUP/Berk/CH4.txt
+written 2/non-fiction/OUP/Berk/ch7.txt
+written 2/non-fiction/OUP/Castro
+written_2/non-fiction/OUP/Castro/chA.txt
+written_2/non-fiction/OUP/Castro/chB.txt
+written_2/non-fiction/OUP/Castro/chc.txt
+written 2/non-fiction/OUP/Castro/chL.txt
+written 2/non-fiction/OUP/Castro/chM.txt
+written 2/non-fiction/OUP/Castro/chN.txt
+written 2/non-fiction/OUP/Castro/cho.txt
+written 2/non-fiction/OUP/Castro/chP.txt
+written_2/non-fiction/OUP/Castro/cho.txt
+written 2/non-fiction/OUP/Castro/chR.txt
+written_2/non-fiction/OUP/Castro/chv.txt
+written 2/non-fiction/OUP/Castro/chw.txt
+written 2/non-fiction/OUP/Castro/chY.txt
+written 2/non-fiction/OUP/Castro/chZ.txt
+```     
+  
+The grep -v command is an interesting one that I found, that essentially does the opposite of the previous command I talked about. This command lists the files where a certain keyword is not used. This is useful for sorting files and omitting ones without the keyword that is needed.   
+
+Here is another example of this command:  
+
+Input:  
+
+```
+find written_2/ | grep -v Paris
+```  
+  
+  
+  Output:  
+  
+  ```
+$ grep -v Paris
+written 2/
+written 2/non-fiction
+written 2/non-fiction/OUP
+written 2/non-fiction/OUP/Abernathy
+written_2/non-fiction/OUP/Abernathy/ch1.txt
+written_2/non-fiction/OUP/Abernathy/ch14.txt
+written 2/non-fiction/OUP/Abernathy/ch15.txt
+written_2/non-fiction/OUP/Abernathy/ch2.txt
+written 2/non-fiction/OUP/Abernathy/ch3.txt
+written 2/non-fiction/OUP/Abernathy/ch6.txt
+written 2/non-fiction/OUP/Abernathy/ch7.txt
+written_2/non-fiction/OUP/Abernathy/ch8.txt
+written_2/non-fiction/OUP/Abernathy/cho.txt
+written 2/non-fiction/OUP/Berk
+written 2/non-fiction/OUP/Berk/ch1.txt
+written 2/non-fiction/OUP/Berk/ch2.txt
+written 2/non-fiction/OUP/Berk/CH4.txt
+written 2/non-fiction/OUP/Berk/ch7.txt
+written 2/non-fiction/OUP/Castro
+written_2/non-fiction/OUP/Castro/chA.txt
+written_2/non-fiction/OUP/Castro/chB.txt
+written_2/non-fiction/OUP/Castro/chc.txt
+written 2/non-fiction/OUP/Castro/chL.txt
+written 2/non-fiction/OUP/Castro/chM.txt
+written 2/non-fiction/OUP/Castro/chN.txt
+written 2/non-fiction/OUP/Castro/cho.txt
+written 2/non-fiction/OUP/Castro/chP.txt
+written_2/non-fiction/OUP/Castro/cho.txt
+written 2/non-fiction/OUP/Castro/chR.txt
+written_2/non-fiction/OUP/Castro/chv.txt
+written 2/non-fiction/OUP/Castro/chw.txt
+written 2/non-fiction/OUP/Castro/chY.txt
+written 2/non-fiction/OUP/Castro/chZ.txt
+``` 
+  
+  
+Here, the output is esentially the same, because the same files also don't contain the keyword "Paris", but again this command would be useful for finding which files do not contain a keyword in order to organize them. 
+  
+  
+## -n  
+
+Input: 
+
+```
+grep -n Paris written_2/travel_guides/berlitz2/Paris-WhereToGo.txt
+```    
+
+Output:  
+
+```
+271 
+```     
+
+The grep -n command returns the line number where a certain keyword is used. This is useful for trying to locate a certain word within a file. In this example, we are searching for where the keyword 'Paris' appears in that path.
+  
+  
+Another example:      
+
+Input:
+
+```
+grep -n Lucayans written_2/travel_guides/berlitz2/Bahamas.txt
+``` 
  
- 
- ## Old Commands
+   
+Output: 
+```
+574 
+```      
+
+In this example now, we see that the keyword "Lucayans" is found on line 574 of the certain file. This is useful for locating parts of a long file to read about a certain keyword. 
+
+
+
    
 ## -c
   
